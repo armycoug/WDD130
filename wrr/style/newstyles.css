@@ -1,4 +1,4 @@
-.width{
+.width {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
@@ -8,6 +8,13 @@
 }
 body {
     background-color: coral;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: aqua;
@@ -16,6 +23,7 @@ nav a {
     text-align: center;
     color: aqua;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -34,7 +42,10 @@ nav a:hover {
     color: crimson;
 }
 .home-title {
+    font-family: 'sans-serif', Helvetica, arial;
     color: violet;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: dodgerblue;
@@ -43,11 +54,19 @@ h4 {
     background-color: lightgreen;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border: 5px;
 }
 .join {
     background-color: deeppink;
     color: green;
+    font-size: 18px;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: midnightblue;
@@ -62,16 +81,23 @@ h4 {
 }
 .msg {
     background-color: yellow;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
+    font-family: sans-serif, Helvetica, sans-serif;
     color: lightgreen;
 }
 .msg p {
     color: violet;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: gold;
     color: darkorange;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: black;
@@ -82,10 +108,32 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer p {
     font-size: 1.5em;
 }
 footer p:hover {
     text-decoration: underline;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
