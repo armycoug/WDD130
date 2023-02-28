@@ -104,7 +104,7 @@ footer {
     background-color: gold;
     color: darkorange;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -201,6 +201,17 @@ nav {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #2010cc;
+}
+.question {
+    font-size: 22px;
+    text-align: left;
+    color: navy;
+    background-image: url('https://travelwyoming.com/wp-content/uploads/2020/03/7-14_Rafting___005964_0504.jpg');
+}
+.title {
+    text-align: center;
+    font-size: 30;
+    color: navy;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
